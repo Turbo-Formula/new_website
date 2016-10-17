@@ -7,6 +7,7 @@
 
 body
   font-family 'Source Code Pro', monospace
+  height 100%
 
 .header
   background url('https://images.unsplash.com/photo-1451337516015-6b6e9a44a8a3?crop=entropy&fit=crop&fm=jpg&h=975&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1925')
@@ -25,6 +26,11 @@ body
   max-width 600px
   min-height 100%
   margin-bottom -124px;
+  
+.main-content:after
+    content ""
+    display block
+    height 122px
 
   p
     line-height 1.6

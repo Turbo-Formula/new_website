@@ -6,6 +6,8 @@ var express = require('express')
 app.use(logger('dev'))
 app.use(express.static(__dirname + '/static'))
 
+app.locals.moment = require('moment');
+
 app.get('/', function (req, res, next) {
   try {
     var html = template({ title: 'Home' })

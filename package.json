@@ -1,0 +1,22 @@
+{
+  "name": "new_website",
+  "version": "1.0.0",
+  "description": "Welcome to Turbo Formula's Jenkins Enabled Dev Site!!!",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turbo-formula/new_website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/turbo-formula/new_website/issues"
+  },
+  "homepage": "https://github.com/turbo-formula/new_website#readme"
+}

@@ -16,7 +16,10 @@
     "url": "https://github.com/turbo-formula/new_website/issues"
   },
   "dependencies": {
-    "express": "~4.14.0"
+    "express": "^4.14.0",
+    "jade": "^1.11.0",
+    "morgan": "^1.7.0",
+    "stylus": "^0.54.5"
   },
   "devDependencies": {
     "mocha": "^3.1.2",

@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:400,200,700");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Source Code Pro', monospace;
+  height: 100%;
+}
+.header {
+  background: url("https://images.unsplash.com/photo-1451337516015-6b6e9a44a8a3?crop=entropy&fit=crop&fm=jpg&h=975&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1925");
+  background-position: center;
+}
+.header .page-title {
+  font-weight: 200;
+  font-size: 5em;
+  text-align: center;
+  padding: 100px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.main-content {
+  margin: 50px auto;
+  max-width: 600px;
+  min-height: 100%;
+  margin-bottom: -124px;
+}
+.main-content:after {
+  content: "";
+  display: block;
+  height: 122px;
+}
+p {
+  line-height: 1.6;
+  margin-bottom: 1.7em;
+}
+.footer {
+  margin: 50px auto;
+  max-width: 600px;
+  border-top: 1px solid #444;
+  padding: 20px 0;
+  height: 122px;
+}
+.footer p {
+  color: #444;
+  font-size: 12px;
+}
+.logo {
+  position: relative;
+  top: -0.5em;
+}
+.logo a,
+.logo a:visited {
+  text-decoration: none;
+  color: #2b2b2d;
+}
+.logo img {
+  height: 2em;
+  position: relative;
+  top: 0.55em;
+  margin-right: 0.3em;
+}
